@@ -1,0 +1,459 @@
+/* Custom Fonts */
+
+@font-face {
+    font-family:"haveHeart";
+    src: url("fonts/Have Heart Two.ttf");
+}
+
+@font-face {
+    font-family: "haveHeart2";
+    src: url("fonts/Have Heart Swash.ttf");
+    
+}
+
+/* Document-wide Changes */
+
+body {
+    font-family: Calibri, sans-serif;
+    background: #232930;
+    color: white;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: white;
+}
+
+
+/* Slideshow Nav */
+
+#topMenu ul li {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    float: right;
+    margin-right: 25px;
+}
+
+#topMenu #hMenu {
+    background: url("images/hMenu.png");
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#topMenu #search {
+    background: url("images/search.png"); 
+    width: 35px;
+    height: 35px;
+}
+
+#topMenu #share {
+    background: url("images/share.png"); 
+    width: 35px;
+    height: 35px;
+}
+
+/* Slideshow - all top-level elements excluding blog articles and sidebar */ 
+
+#container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+#logo {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+    
+header h1 {
+    font-family: 'haveHeart', Calibri, sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 92px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 4px #262626;
+    z-index: 2;
+}
+
+header a {
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
+}
+
+header a: hover {
+    cursor: pointer;
+}
+
+#logo #swishLogo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 75px;
+    left: 0;
+}
+
+header h2 {
+    font-size: 19px;
+    padding: 15px 0 0; 
+    margin-bottom: 85px;
+    font-weight: lighter;
+    font-family: Calibri Light, Arial, sans-serif; 
+}
+
+header h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header h4 {
+    font-size: 24px; 
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+#slideshow {
+    padding: 0 80px;
+    height: 680px;
+}
+
+#slideshowNav {
+    position: absolute;
+    bottom: 40; 
+}
+
+#topMenu ul li a {
+    color: white;
+}
+
+.slideshowButton {
+    display: inline-block;
+    width: 52px;
+    height: 12px;
+    margin-left: 2px;
+    background-color: rgba(255,255,255,0.40);
+}
+
+.slideshowButton:hover {
+    background-color: rgba(255,255,255,1)
+}
+
+.slideshowButton:active {
+    background-color: rgba(255,255,255,1)
+}
+
+header#slideshow {
+    background: url("images/computer.jpg");
+    background-size: cover;
+}
+
+/* Secondary Content */ 
+
+#leftContainer { 
+    float: left;
+    width: 640px;
+}
+
+#leftContainer section {
+    margin: 0 20px 20px 30px;
+}
+
+
+.blogPic5 { 
+    
+    background: url("images/learningCode1.jpg");
+    width: 100%;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;  
+    background-position: center;
+    
+    border-radius: 0 60px 0 0;
+    -webkit-border-radius: 0 60px 0 0;
+    -moz-border-radius: 0 60px 0 0;
+    -o-border-radius: 0 60px 0 0;
+}
+
+.blogPic4 { 
+    
+    background: url("images/appleWatch.jpg");
+    width: 100%;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;  
+    
+    border-radius: 0 60px 0 0;
+    -webkit-border-radius: 0 60px 0 0;
+    -moz-border-radius: 0 60px 0 0;
+    -o-border-radius: 0 60px 0 0;
+}
+
+
+.blogPic3 { 
+    
+    background: url("images/coding.jpg");
+    width: 100%;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;  
+    
+    border-radius: 0 60px 0 0;
+    -webkit-border-radius: 0 60px 0 0;
+    -moz-border-radius: 0 60px 0 0;
+    -o-border-radius: 0 60px 0 0;
+}
+
+.blogPic2 { 
+    
+    background: url("images/finTech.jpg");
+    width: 100%;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;  
+    
+    border-radius: 0 60px 0 0;
+    -webkit-border-radius: 0 60px 0 0;
+    -moz-border-radius: 0 60px 0 0;
+    -o-border-radius: 0 60px 0 0;
+}
+
+.blogPic1 { 
+    
+    background: url("images/socialMedia.jpg");
+    width: 100%;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;  
+    
+    border-radius: 0 60px 0 0;
+    -webkit-border-radius: 0 60px 0 0;
+    -moz-border-radius: 0 60px 0 0;
+    -o-border-radius: 0 60px 0 0;
+}
+
+.blogExcerpt {
+    padding: 20px;
+    background-color: #363e44;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.blogExcerpt h3 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.blogExcerpt small {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.blogExcerpt p {
+    font-size: 24px; 
+}
+
+.blogExcerpt em {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Right Sidebar */
+
+#rightContainer {
+    position: relative;
+}
+
+#rightContainer .rightSection1 {
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
+    
+    
+}
+
+#rightContainer .rightSection2 {
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 640px;
+    
+}
+
+#rightContainer .rightSection3 {
+    margin-right: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 800px;
+    
+}
+
+h2.rightBox {
+    width: 350px;
+    height: 55px;
+    background-color: #ed485c;
+    margin: 0 0 20px;;
+    padding: 5px 0 0 15px;
+    border-radius: 0 60px 0 0;  
+    
+}
+
+#rightContainer h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.rightSection1 p a {
+    color: ed485c;
+}
+
+#profilePic {
+    background: url("images/profile.jpg");
+    background-position: center;
+    width: 365px;
+    height: 280px;
+    background-size: cover;
+}
+
+#rightContainer h3 {
+    font-size: 24px;
+    margin: 25px 0 25px 0;
+}
+
+#rightContainer p {
+    font-size: 24px;
+}
+
+#rightContainer small {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* Sidebar Social */
+
+#rightSection2 nav, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.facebook, .twitter, .instagram, .linkedIn, .google, .gitHub {
+    display: inline-block;
+}
+
+.facebook {
+    background: url("images/facebook.png");
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    
+}
+
+.twitter {
+    background: url("images/twitter.png");
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.instagram {
+    background: url("images/instagram.png");
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.linkedIn {
+    background: url("images/linkedin.png");
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.google {
+    background: url("images/google+.png");
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.gitHub {
+    background: url("images/github.png");
+    width: 48px;
+    height: 48px;
+    
+}
+
+/* Newsletter */
+
+
+.rightSection3 h4 {
+    font-size: 24px;
+}
+
+input[type="email"] {
+    font-size: 16px;
+    color: white; 
+    background: #232930;
+    border: solid 3px #363e44;
+    width: 100%;
+    height: 45px;
+    display: block;
+    text-align: center; 
+    
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 48px;
+    background: #363e44;
+    border: solid 3px #363e44;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+/* Footer */
+
+#blogFooter {
+    clear: both;
+    background: #ed485c;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#footerContainer {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#footerContainer small {
+    font-weight: bolder;
+    font-size: 14px;
+   
+}
+
+#footerRight {
+    float: right;
+}
